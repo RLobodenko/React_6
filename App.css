@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+.App-header {
+  background-color: #007765;
+
+  height: 84px;
+}
+.App-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.image_1:nth-child(2) {
+  margin-left: -40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  height: 176px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.App-article_1 {
+  background: url(./assets/image_1.png);
+  font-family: 'Roboto';
+
+  height: 403px;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: visible;
+  background-position: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.App-article_2 {
+  background-color: #eeeeee;
+  font-family: 'Roboto';
+  height: 719px;
+}
+
+.App-article_3 {
+  background: url(./assets/image_2.png);
+  text-align: center;
+  height: 483px;
+  font-style: italic;
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 56px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: visible;
+  background-position: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.App-article_4 {
+  background-color: #ffffff;
+
+  height: 604px;
+}
+
+.App-article_5 {
+  background-color: #eeeeee;
+
+  height: 845px;
+}
+
+.links {
+  color: #ffffff;
+  display: flex;
+  font-size: 24px;
+  justify-content: flex-end;
+  font-weight: 500;
+  gap: 10px;
+  align-items: center;
+}
+
+.problem {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.problem_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: left;
+  color: #000000;
+  float: left;
+  /* float обтекание */
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1110px;
+  margin: 0 auto;
+}
+.team-item {
+  width: 350px;
+}
+
+.team-item:nth-child(3n) {
+  margin-right: 0;
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #007765;
+}
+
+.team-list_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.PiperNet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
